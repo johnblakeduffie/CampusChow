@@ -14,7 +14,7 @@ This project will house a database system to handle deliveries within a college 
 [IMG HERE]
 # EERD
 [Description]
-[IMG HERE]
+![EERD](CampusChowEERD.png)
 # Trigger
 The trigger for this system is when an order is placed by a customer. Customers will recieve text and email (using their contact information provided). 
 # Stored Procedure

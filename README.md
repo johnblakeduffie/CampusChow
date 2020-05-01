@@ -22,4 +22,5 @@ The trigger for this system is when an order is confirmed by a customer. Custome
 University ID's, addresses, contact information, and delivery history will be stored in the database. 
 # Description of Future Work:
 We will add a semi-functional UI to demonstrate the connection of the database to the app (CRUD capabilities and a view of the changes made).
-[SQL Dump](campusChow.sql) 
+# SQL Dump
+[Click here to view the SQL Dump](campusChow.sql) 

@@ -16,10 +16,10 @@ This project will house a database system to handle deliveries within a college 
 # EERD
 This system will comprise of 5 tables: A student, order, driver, admin, and restaurant. After a student confirms their order, a driver will pickup the order, an admin can view and edit the order, and all restaurants signed up with the app will be able to edit their hours.
 ![EERD](CampusChowEERD.jpg) 
-[SQL Dump](campusChow.sql) 
 # Trigger
 The trigger for this system is when an order is confirmed by a customer. Customers will recieve text and email (using their contact information provided). 
 # Stored Procedure
 University ID's, addresses, contact information, and delivery history will be stored in the database. 
 # Description of Future Work:
 We will add a semi-functional UI to demonstrate the connection of the database to the app (CRUD capabilities and a view of the changes made).
+[SQL Dump](campusChow.sql) 

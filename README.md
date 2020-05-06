@@ -17,9 +17,15 @@ This project will house a database system to handle deliveries within a college 
 This system will comprise of 5 tables: A student, order, driver, admin, and restaurant. After a student confirms their order, a driver will pickup the order, an admin can view and edit the order, and all restaurants signed up with the app will be able to edit their hours.
 ![EERD](CampusChowEERD.jpg) 
 # Trigger
-The trigger for this system is when an order is deleted from the order table. This could have been caused by several circumstances (admin deleting order, student canceling order, or a driver verifying the order as complete). When this trigger occurs, the driver responsible for the order will have their current orderID removed from their record in the driver table, because the order is no longer necessary. [Click here to view the Trigger](driverVerifiedOrderTrigger.sql) 
+The trigger for this system is when an order is deleted from the order table. This could have been caused by several circumstances (admin deleting order, student canceling order, or a driver verifying the order as complete). 
+
+When this trigger occurs, the driver responsible for the order will have their current orderID removed from their record in the driver table, because the order is no longer necessary. 
+[Click here to view the Trigger](Trigger/driverVerifiedOrderTrigger.sql) 
 # Stored Procedure
-University ID's, addresses, contact information, and delivery history will be stored in the database. 
+addOrder: add an order to the order table ![addOrder](StoredProcedures/addOrderProcedure.png) 
+cancelOrder: delete an order from the order table ![cancelOrder](StoredProcedures/cancelOrderProcedure.png) 
+selectOrders: display all orders from a particular restaurant ![selectOrders](StoredProcedures/selectOrdersProcedure.png) 
+[Click here to view the Stored Procedures](StoredProcedures) 
 # Description of Future Work:
 We will add a semi-functional UI to demonstrate the connection of the database to the app (CRUD capabilities and a view of the changes made).
 # SQL Dump

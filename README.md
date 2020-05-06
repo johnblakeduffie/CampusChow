@@ -34,3 +34,5 @@ selectOrders: display all orders from a particular restaurant
 We will add a semi-functional UI to demonstrate the connection of the database to the app (CRUD capabilities and a view of the changes made).
 # SQL Dump
 [Click here to view the SQL Dump](campusChow.sql) 
+# Demonstration
+[Click here to view the Demonstration](https://www.youtube.com/watch?v=9oJPFtgkag0&feature=youtu.be)

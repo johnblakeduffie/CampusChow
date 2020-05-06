@@ -25,12 +25,12 @@ When this trigger occurs, the driver responsible for the order will have their c
 studentDriverView: This view will show all of the student drivers that are in the system. It accomplishes this by looking through the student table and verifying that the driver table also contains that students ID.
 restaurantSalesView: This will display all of the restaurants that are selling any type of food. The view works by selecting all restaurant emails from the restaurant table that have existing orders in the order table (check for their id), and then only showing the ones with the food that is asked for.
 [Click here to view the Advanced Views](AdvancedViews) 
-# Stored Procedure
+# Stored Procedures
 addOrder: add an order to the order table 
 cancelOrder: delete an order from the order table 
 selectOrders: display all orders from a particular restaurant 
 [Click here to view the Stored Procedures](StoredProcedures) 
-# Description of Future Work:
+# Description of Future Work
 We will add a semi-functional UI to demonstrate the connection of the database to the app (CRUD capabilities and a view of the changes made).
 # SQL Dump
 [Click here to view the SQL Dump](campusChow.sql) 

@@ -22,9 +22,12 @@ The trigger for this system is when an order is deleted from the order table. Th
 When this trigger occurs, the driver responsible for the order will have their current orderID removed from their record in the driver table, because the order is no longer necessary. 
 [Click here to view the Trigger](Trigger/driverVerifiedOrderTrigger.sql) 
 # Stored Procedure
-addOrder: add an order to the order table ![addOrder](StoredProcedures/addOrderProcedure.png) 
-cancelOrder: delete an order from the order table ![cancelOrder](StoredProcedures/cancelOrderProcedure.png) 
-selectOrders: display all orders from a particular restaurant ![selectOrders](StoredProcedures/selectOrdersProcedure.png) 
+addOrder: add an order to the order table 
+![addOrder](StoredProcedures/addOrderProcedure.png) 
+cancelOrder: delete an order from the order table 
+![cancelOrder](StoredProcedures/cancelOrderProcedure.png) 
+selectOrders: display all orders from a particular restaurant 
+![selectOrders](StoredProcedures/selectOrdersProcedure.png) 
 [Click here to view the Stored Procedures](StoredProcedures) 
 # Description of Future Work:
 We will add a semi-functional UI to demonstrate the connection of the database to the app (CRUD capabilities and a view of the changes made).

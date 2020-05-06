@@ -1,8 +1,8 @@
-CREATE VIEW restaurantSalesView AS
-SELECT food FROM campuschow.order
+CREATE VIEW restaurantSales AS
+SELECT email FROM campuschow.restaurant
 WHERE restaurantID IN (
 	SELECT
 		restaurantID
-	FROM campuschow.restaurant
-    GROUP BY food
+	FROM campuschow.order
+    WHERE food = "sandwiches"
 )
